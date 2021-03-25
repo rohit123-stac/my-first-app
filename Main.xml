@@ -1,0 +1,26 @@
+# my-first-app
+Please correct the code
+
+<andriodx.constraintlayout.widget.constraintlayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlnx:app="http://schemas.android.com/apk/res-auto"
+	xmlnx:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="MainActivity">
+
+	<andriodx.constraintlayout.widget.Guideline
+		android:layout_width="@+id/guidline"
+		android:layout_height="match_parent"
+		android:orientation="horizontal"
+		app:layout_constraintGuide_persent="0.3"/>
+	
+	<andriodx.constraintlayout.widget.constraintlayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintBottom_toTopOf="@+id/guideline"
+		android:background="FFC107">
+		
+	</andriodx.constraintlayout.widget.constraintlayout>
+	
+</andriodx.constraintlayout.widget.constraintlayout
